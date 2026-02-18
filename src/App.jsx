@@ -13,7 +13,7 @@ function App() {
   // --- DADOS ---
   const restaurante = { nome: "Pão Caseiro Muniz", cor: "#e74c3c", fone: "551196595-5372" };
   const produtos = [
-    { id: 1, nome: "Pão Tradicional", preco: 15.00, categoria: "", destaque: true, desc: "Sem recheio.",
+    { id: 1, nome: "Pão Tradicional", preco: 15.00, categoria: "Pão Caseiro", destaque: true, desc: "Sem recheio.",
       imagem: "/pao-tradicional.png"
      },
     { id: 2, nome: "Pão de Calabresa", preco: 25.00, categoria: "Pão Caseiro", destaque: false, desc: "Calabresa.",
@@ -87,7 +87,7 @@ function App() {
 
   {/* 2. FILTRO DE CATEGORIAS */}
   <nav className="filtros">
-    {['Pão Caseiro'].map(cat => (
+    {['Todos','Pão Caseiro'].map(cat => (
       <button 
         key={cat}
         className={categoriaAtiva === cat ? 'active' : ''} 
