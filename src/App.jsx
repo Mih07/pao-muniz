@@ -51,8 +51,8 @@ function App() {
           <div className="header-info">
             <h1>{restaurante.nome}</h1>
             <div className="status-container">
-              <span className="badge-status">● Aberto</span>
-              <span className="tempo-entrega">🕒 30-45 min</span>
+              <span className="badge-status">● Faça sua reserva</span>
+              <span className="tempo-entrega">🕒 1 dia</span>
             </div>
           </div>
 
