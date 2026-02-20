@@ -11,7 +11,7 @@ function App() {
   const total = carrinho.reduce((soma, item) => soma + item.preco, 0);
 
   // --- DADOS ---
-  const restaurante = { nome: "Pão Caseiro Muniz", cor: "#e74c3c", fone: "551196595-5372" };
+  const restaurante = { nome: "Pão Caseiro", cor: "#e74c3c", fone: "5511971128269" };
   const produtos = [
     { id: 1, nome: "Pão Tradicional", preco: 15.00, categoria: "Pão Caseiro", destaque: true, desc: "Sem recheio.",
       imagem: "/pao-tradicional.png"
@@ -47,7 +47,7 @@ function App() {
     <div className="container">
       <header className="header-dinamico">
         <div className="header-content">
-          <img src="/logo.png" alt="Logo" className="logo-restaurante" />
+          <img src="/pao" alt="Logo" className="logo-restaurante" />
           <div className="header-info">
             <h1>{restaurante.nome}</h1>
             <div className="status-container">
