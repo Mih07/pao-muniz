@@ -1,16 +1,24 @@
-# React + Vite
+# 🥖 Pão Muniz - Cardápio Digital & Pedidos Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Pão Muniz** é uma plataforma de cardápio interativo desenvolvida para modernizar o atendimento de padarias artesanais e conveniências. O foco principal é a experiência do usuário (UX) em dispositivos móveis, permitindo que o cliente monte seu carrinho e envie o pedido formatado diretamente para o WhatsApp da produção.
 
-Currently, two official plugins are available:
+## 🥐 O Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este repositório contém o front-end de uma aplicação "MGM" (Modern Gastro Menu), adaptada para o nicho de panificação. O sistema gerencia desde pães artesanais até itens de empório e bebidas.
 
-## React Compiler
+### ✨ Diferenciais deste Cardápio:
+- **Agendamento Visual:** Exibição dinâmica de produtos (ex: Pão Francês sempre saindo, Pães Especiais por dia da semana).
+- **Check-out Simplificado:** Captação de Nome, Endereço de Entrega e Forma de Pagamento sem necessidade de login.
+- **Carrinho Persistente:** O cliente visualiza o subtotal e itens selecionados de forma fixa na tela.
+- **Filtros por Categoria:** Navegação rápida entre Pães, Doces, Frios e Bebidas.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Stack Tecnológica
 
-## Expanding the ESLint configuration
+- **React.js**: Construção de componentes reativos.
+- **Vite**: Ambiente de desenvolvimento de alta performance.
+- **CSS Modules / Flexbox**: Layout responsivo focado em mobile.
+- **WhatsApp API Integration**: Protocolo de comunicação direta para pedidos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Acesse
+
+Acesse: https://pao-muniz.vercel.app/
